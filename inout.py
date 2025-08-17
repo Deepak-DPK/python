@@ -8,3 +8,8 @@ x, y, z = input("Enter three values: ").split()
 print("Total number of students: ", x)
 print("Number of boys is : ", y)
 print("Number of girls is : ", z)
+
+# using f string
+name = 'Tushar'
+age = 23
+print(f"Hello, My name is {name} and I'm {age} years old.")
