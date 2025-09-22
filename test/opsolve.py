@@ -1,5 +1,5 @@
 """problem statement
-u have an amount discount 10 percent of the amount and gst of 18 percent to that amount 
+u have an amount discount 18% gst tax to  the amount and 10 percent to total amount 
 """
 
 amount = 1200
