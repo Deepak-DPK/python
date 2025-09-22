@@ -15,4 +15,5 @@ print(int(x)+int(y))
 print(x+y) # it returns combine of both x+y as a string 2030
 
 
-
+z="4.16"
+print(type(float(z)))
