@@ -1,61 +1,63 @@
-#arithmetic operators 
-a=2
-b=3
-print(a+b) #add
-print(a-b) #sub
-print(a*b) #mul
-print(a/b) #div  results quotient
-print(a ** b)  #2*2*2
-print(a  % b)  #modulus results remainder
-print(a // b)  # result quotient in whole number 
+# ============================================
+# 1. Arithmetic Operators
+# ============================================
+# These operators perform mathematical calculations.
 
+print("--- 1. Arithmetic Operators ---")
+a = 2
+b = 3
 
-print("-------------------------------------------------------------------------")
+print(f"{a} + {b} = {a + b}")          # Addition
+print(f"{a} - {b} = {a - b}")          # Subtraction
+print(f"{a} * {b} = {a * b}")          # Multiplication
+print(f"{a} / {b} = {a / b}")          # Division (results in a float)
+print(f"{a} ** {b} = {a ** b}")         # Exponent (a to the power of b)
+print(f"{a} % {b} = {a % b}")          # Modulus (remainder of a division)
+print(f"{a} // {b} = {a // b}")         # Floor Division (quotient as a whole number)
+print("\n") # Adds a blank line for spacing
 
-#comparison operators 
+# ============================================
+# 2. Comparison Operators
+# ============================================
+# These operators compare two values and return a Boolean (True or False).
 
-print(a == b)
-print(a != b)
-print(a > b)
-print(a < b)
+print("--- 2. Comparison Operators ---")
+print(f"Is {a} equal to {b}? \t\t{a == b}")
+print(f"Is {a} not equal to {b}? \t\t{a != b}")
+print(f"Is {a} greater than {b}? \t\t{a > b}")
+print(f"Is {a} less than {b}? \t\t{a < b}")
+print("\n")
 
-print("-------------------------------------------------------------------------")
-#logical operators 
-print("AND OPERATOR")
-#and 
+# ============================================
+# 3. Logical Operators
+# ============================================
+# These operators combine conditional statements.
+
+print("--- 3. Logical Operators ---")
+
+# Example for 'and'
+print("AND Operator Example:")
 age = 20
 has_license = True
-
-# Let's check the conditions
-if age >= 18 and has_license == True:
-    print("You are eligible to drive.")
+if age >= 18 and has_license: # '== True' is redundant
+    print("Result: You are eligible to drive.")
 else:
-    print("You are not eligible to drive.")
+    print("Result: You are not eligible to drive.")
+print("-" * 20) # A simple separator
 
-print("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
-
-#or
-print("OR OPERATOR")
-
+# Example for 'or'
+print("OR Operator Example:")
 day = "Sunday"
-
-# Let's check if it's the weekend
 if day == "Saturday" or day == "Sunday":
-    print("It's the weekend! Time to relax. 🥳")
+    print("Result: It's the weekend! Time to relax. 🥳")
 else:
-    print("It's a weekday. Back to work.")
+    print("Result: It's a weekday. Back to work.")
+print("-" * 20)
 
-print("\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\")
-
-#not 
-print("NOT OPERATOR")
-
+# Example for 'not'
+print("NOT Operator Example:")
 is_admin = False
-
-# The 'not' operator flips the value of is_admin
-# from False to True, so the 'if' condition passes.
-
 if not is_admin:
-    print("Welcome, valued user! Thank you for visiting.")
+    print("Result: Welcome, valued user! Thank you for visiting.")
 else:
-    print("Welcome, Admin. Here is the control panel link.")
+    print("Result: Welcome, Admin. Here is the control panel link.")
