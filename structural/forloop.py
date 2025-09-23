@@ -1,4 +1,10 @@
-name = ['deepak', 'srinath', 'vicky', 'gokul', 'pradeep', 'lithish', 'neth']
+# A list of fruits
+fruits = ["Apple", "Banana", "Cherry"]
 
-for i in name:
-    print(i.capitalize())
+print("Let's get some fruit!")
+
+# This loop will run once for each item in the 'fruits' list
+for fruit in fruits:
+    print(f"Getting a {fruit}...")
+
+print("All done!")
