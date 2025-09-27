@@ -3,7 +3,6 @@ day="sat"
 membership="no"
 
 if(money>=980 and day in ['mon','sun'])or membership=="yes":
-    print("20% percent discount")
+    print("20% percent discount")      
 else:
-    print("no discount")
-             
+    print("no discount")                
