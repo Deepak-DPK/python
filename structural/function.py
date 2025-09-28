@@ -4,6 +4,7 @@ def return_add(a, b):
 
 # Call the function and store the returned value
 print("--- Using the return_add function ---")
+
 r = return_add(5, 3)
 
 # Now we can use the returned value for something else
