@@ -9,4 +9,4 @@ try:
         print(f"{input} is odd number")
 
 except ValueError:
-    print("enter a valid number ; ")
+    print("enter a valid number")
