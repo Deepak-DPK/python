@@ -30,3 +30,15 @@ print(my_dict.values())
 # Accessing dictionary elements and iteration
 for key,value in my_dict.items():
     print(key, ":", value)
+
+# update 
+my_dict.update({"car_model" : "bmw"})
+print(my_dict)
+
+# just return only that index value 
+print(mixed_dict["list"][1])
+
+
+# iterate the list 
+for location in mixed_dict["list"]:
+    print(location)
