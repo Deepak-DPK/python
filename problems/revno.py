@@ -8,7 +8,7 @@ def reverse_number_math(num):
     Correctly handles negative numbers.
     """
     # Handle the sign separately
-    sign = -1 if num < 0 else 1
+    sign = 1 if num < 0 else -1
     num = abs(num)
 
     reversed_num = 0
