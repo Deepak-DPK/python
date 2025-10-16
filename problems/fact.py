@@ -9,7 +9,6 @@ def fact(n):
             result =result * i
         return result
  
-# num=int(input("Enter the number: "))
-num=5
-result = fact(num)
-print(f"the factorial of {num} is {result}")
+num=int(input("Enter the number: "))
+faq = fact(num)
+print(f"the factorial of {num} is {faq}")
