@@ -1,10 +1,1 @@
-delivery_partner="swiggy"
-
-def hotel():
-    item="dosa"
-
-    def order():
-        quantity=2
-        print(f"your {item}  quantity of {quantity} is ready to deliver from {delivery_partner}")
-    order()
-hotel()
+from .nested_function_scope_demo import *  # noqa: F401,F403

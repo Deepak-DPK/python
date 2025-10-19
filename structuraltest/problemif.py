@@ -1,8 +1,1 @@
-money=1000
-day="sat"
-membership="no"
-
-if(money>=980 and day in ['mon','sun'])or membership=="yes":
-    print("20% percent discount")      
-else:
-    print("no discount")                
+from .discount_eligibility_logic import *  # noqa: F401,F403
