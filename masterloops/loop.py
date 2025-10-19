@@ -27,3 +27,11 @@ for i in range(1,101):
 #💡 This is how loops save your time and make your code clean and efficient.
 #--------------------------------------------------------------------------------------------#
 
+
+#🔁 Two Main Types of Loops in Python
+"""
+| Type           | Use Case                                                    | Example               |
+| -------------- | ----------------------------------------------------------- | --------------------- |
+| **for loop**   | When you know **how many times** you want to repeat         | `for i in range(10):` |
+| **while loop** | When you want to repeat **until a condition becomes False** | `while condition:`    |
+"""
