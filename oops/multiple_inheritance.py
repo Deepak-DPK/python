@@ -21,3 +21,16 @@ obj = Student()
 obj.show_student()
 obj.show_sports()
 obj.show_academics()
+
+
+"""✅ Key idea:
+Child can inherit features from multiple parent classes."""
+
+#output flow ------------------------------------------------
+"""
+  Sports      Academics
+     \          /
+      \        /
+        Student
+
+"""#------------------------------------------------------------

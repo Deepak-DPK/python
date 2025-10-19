@@ -1,4 +1,4 @@
-"""🧬 4️⃣ Hierarchical Inheritance
+"""🧬 4. Hierarchical Inheritance
 
 ➡️ One Parent → Multiple Children
 
@@ -29,6 +29,8 @@ d.show_parent()
 """✅ Key idea:
 Multiple child classes share one parent."""
 
+
+#--------------------------------------------
 #output flow 
 """
        Parent
@@ -36,3 +38,4 @@ Multiple child classes share one parent."""
    Son      Daughter
 
 """
+#---------------------------------------------
