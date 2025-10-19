@@ -1,22 +1,19 @@
-#inheritaNCE 
+"""🌳 1. Single Inheritance
 
-class grandpa:
-    def __init__(self,name,age):
-        self.name=name
-        self.age=age
-    def grandpa_det(self):
-        print(f"Grandpa name: {self.name} Grandpa Age: {self.age}")
+➡️ One Parent → One Child
 
-class dad(grandpa):
-     def __init__(self,name,age):
-        self.name=name
-        self.age=age
-     def dad_det(self):
-        print(f"dad name: {self.name} dad Age: {self.age}")
+Example:
+A Father has a property, and the Son inherits it."""
 
 
-g1=grandpa("thatha",55)
-d1=dad("appa",39)
+class Father:
+    def show_father(self):
+        print("This is Father class")
 
-d1.dad_det()
-g1.grandpa_det()
+class Son(Father):
+    def show_son(self):
+        print("This is Son class")
+
+obj = Son()
+obj.show_son()
+obj.show_father()   # inherited from Father
