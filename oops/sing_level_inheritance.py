@@ -17,3 +17,14 @@ class Son(Father):
 obj = Son()
 obj.show_son()
 obj.show_father()   # inherited from Father
+
+
+#✅ Key idea:
+#Child inherits from only one parent.
+
+#outputflow -----------------------------------------------------
+"""
+Father
+  ↓
+Son
+"""
