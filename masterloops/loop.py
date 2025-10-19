@@ -35,3 +35,4 @@ for i in range(1,101):
 | **for loop**   | When you know **how many times** you want to repeat         | `for i in range(10):` |
 | **while loop** | When you want to repeat **until a condition becomes False** | `while condition:`    |
 """
+
