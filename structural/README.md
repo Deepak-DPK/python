@@ -74,20 +74,6 @@ Run a single file:
 ```bash
 python3 02_data_structures_01_lists.py
 ```
-
-Run all non-interactive files (safe loop):
-
-```bash
-for f in *.py; do
-  if grep -q "input(" "$f"; then
-    echo "skipping interactive: $f"
-    continue
-  fi
-  printf "\n--- %s ---\n" "$f"
-  python3 "$f"
-done
-```
-
 Note: review scripts before running the full loop — some may require input or print lots of output.
 
 Learning path
@@ -102,19 +88,3 @@ Next exercises
 - Add CLI argument parsing with `argparse`.
 - Refactor a script into reusable functions and add docstrings.
 - Add basic tests using `unittest` or simple `assert` checks.
-
-Contributing
-------------
-- Add examples using the established filename pattern.
-- Include a concise header comment in any new file and add one-line description to this README.
-
-License
--------
-Educational examples — add a `LICENSE` file at the repo root if you want explicit licensing (MIT is a common choice).
-
-Need help?
-----------
-If you'd like, I can:
-- Add a one-line header comment to each script.
-- Create a small test harness that runs only non-interactive scripts.
-- Add example unit tests for a few functions.
