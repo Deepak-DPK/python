@@ -24,4 +24,3 @@ marks =int(input("Enter your makrs: "))
 s1 = student(name,roll,marks)
 
 s1.display_details()
-
