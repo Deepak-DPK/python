@@ -17,7 +17,6 @@ class BankAccount:
         print(f"Name : {self.name}")
         print(f"Balance : {self.balance}")
 
-
 name = input('Enter your Name : ')
 Initial_amount = int(input("Enter your amount: "))
 
